@@ -1,6 +1,7 @@
 package course.labs.activitylab;
 
 import android.app.Activity;
+import android.content.res.Configuration;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -186,16 +187,11 @@ public class ActivityTwo extends Activity {
 		// TODO:
 		// Save counter state information with a collection of key-value pairs
 		// 4 lines of code, one for every count variable
-        savedInstanceState.putInt(START_KEY,mStart);
-        savedInstanceState.putInt(RESTART_KEY,mRestart);
-        savedInstanceState.putInt(RESUME_KEY,mResume);
-        savedInstanceState.putInt(CREATE_KEY,mCreate);
+        savedInstanceState.putInt(START_KEY, mStart);
+        savedInstanceState.putInt(RESTART_KEY, mRestart);
+        savedInstanceState.putInt(RESUME_KEY, mResume);
+        savedInstanceState.putInt(CREATE_KEY, mCreate);
 
-
-		
-		
-		
-		
 	}
 
 	// Updates the displayed counters
@@ -213,4 +209,5 @@ public class ActivityTwo extends Activity {
 
 	
 	}
+
 }
