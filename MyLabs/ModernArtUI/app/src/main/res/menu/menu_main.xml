@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/more_info"
+        android:title="@string/more_info_string"
+        android:showAsAction="never"
+        >
+    </item>
+
+</menu>
