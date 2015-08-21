@@ -1,12 +1,12 @@
 package labs.course.lab8b_dailyselfie;
 
-import android.support.v7.app.ActionBarActivity;
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class DailySelfieMainActivity extends ActionBarActivity {
+public class DailySelfieMainActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
